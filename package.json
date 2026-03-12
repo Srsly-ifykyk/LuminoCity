@@ -1,11 +1,12 @@
 {
   "name": "luminocity",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://Srsly-ifykyk.github.io/LuminoCity",
   "scripts": {
-    "dev": "tsx server.ts",
+    "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "server": "tsx server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
