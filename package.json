@@ -1,12 +1,11 @@
 {
   "name": "luminocity",
-  "homepage": "https://Srsly-ifykyk.github.io/LuminoCity",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "tsx server.ts",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "server": "tsx server.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
@@ -28,7 +27,6 @@
     "papaparse": "^5.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-is": "^19.0.0",
     "react-leaflet": "^5.0.0",
     "react-markdown": "^10.1.0",
     "react-simple-maps": "^3.0.0",
