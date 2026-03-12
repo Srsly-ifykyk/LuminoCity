@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Remix: Remix: Remix: LuminoCity: AI Energy Forecaster",
+  "description": "Advanced AI-driven energy demand forecasting and sustainability dashboard for Indian smart cities.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
